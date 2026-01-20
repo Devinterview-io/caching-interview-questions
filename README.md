@@ -514,7 +514,7 @@ Let's break down the steps to **implementing a basic cache system** and then loo
 
 1. **Least Recently Used (LRU)**: Discards the least recently used items first. This is suitable for data sets where older entries are less likely to be used again.
 
-2. **Most Recently Used (MRU)**: Removes the most recently used items. It is effective when a recently accessed item is more likely to be accessed again.
+2. **Most Recently Used (MRU)**: Removes the most recently used items. It is effective when a recently accessed item is less likely be accessed again.
 
 3. **Least Frequently Used (LFU)**: Evicts the least frequently used items. This is beneficial for caches where data popularity changes over time.
 
